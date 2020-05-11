@@ -1,12 +1,12 @@
 export default {
     input: 'dist/index.js',
     output: {
-        file: 'dist/bundles/profile.umd.js',
-        format: 'umd',
-        name: 'profile.umd.js'
+        file: 'dist/bundles/profile.js',
+        format: 'cjs',
+        name: 'profile.js'
     },
     sourceMap: true,
-    format: 'umd',
+    format: 'cjs',
     moduleName: 'ng.profile',
     globals: {
         '@angular/core': 'ng.core',
